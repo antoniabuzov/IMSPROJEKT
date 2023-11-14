@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pozadina">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="ExtraText">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kviz o Beatlesima"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/popins"
+                android:textColor="@color/tekst"/>
+
+            <TextView
+                android:id="@+id/question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Koje godine su se Beatlesi raspali?"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/popins"
+                android:textColor="@color/tekst"/>
+
+            <CheckBox
+                android:id="@+id/option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1969"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/popins"
+                android:textColor="@color/tekst"/>
+
+            <CheckBox
+                android:id="@+id/option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1970"
+                android:fontFamily="@font/popins"
+                android:textColor="@color/tekst"/>
+
+            <CheckBox
+                android:id="@+id/option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1971"
+                android:fontFamily="@font/popins"
+                android:textColor="@color/tekst"/>
+
+            <CheckBox
+                android:id="@+id/option4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1972"
+                android:fontFamily="@font/popins"
+                android:textColor="@color/tekst"/>
+
+            <TextView
+                android:id="@+id/question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Koja je pjesma Beatlesa najprodavanija svih vremena?"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/popins"
+                android:textColor="@color/tekst"/>
+
+            <RadioGroup
+                android:id="@+id/question2Options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/option5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hey Jude"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/tekst"/>
+
+                <RadioButton
+                    android:id="@+id/option6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Let It Be"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/tekst"/>
+
+                <RadioButton
+                    android:id="@+id/option7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yesterday"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/tekst"/>
+
+                <RadioButton
+                    android:id="@+id/option8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Something"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/tekst"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='3. Koji član benda je napisao pjesmu "Yesterday"?'
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/popins"
+                android:textColor="@color/tekst"/>
+
+
+            <RadioGroup
+                android:id="@+id/question3Options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/option9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="John Lennon"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/tekst"/>
+
+                <RadioButton
+                    android:id="@+id/option10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paul McCartney"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/tekst"/>
+
+                <RadioButton
+                    android:id="@+id/option11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="George Harrison"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/tekst"/>
+
+                <RadioButton
+                    android:id="@+id/option12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ringo Starr"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/tekst"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Koja je pjesma Beatlesa postala njihov prvi hit singl u SAD-u?"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/popins"
+                android:textColor="@color/tekst"/>
+
+            <RadioGroup
+                android:id="@+id/question4Options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/option13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I Want to Hold Your Hand"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/tekst"/>
+
+                <RadioButton
+                    android:id="@+id/option14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Love Me Do"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/tekst"/>
+
+                <RadioButton
+                    android:id="@+id/option15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Help!"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/tekst"/>
+
+                <RadioButton
+                    android:id="@+id/option16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A Hard Day's Night"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/tekst"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Koja pjesma je završna na albumu Abbey Road?"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/popins"
+                android:textColor="@color/tekst"/>
+
+            <RadioGroup
+                android:id="@+id/question5Options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/option17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Let It Be"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/tekst"/>
+
+                <RadioButton
+                    android:id="@+id/option18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Here Comes the Sun"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/tekst"/>
+
+                <RadioButton
+                    android:id="@+id/option19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Golden Slumbers/Carry That Weight/The End"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/tekst"/>
+
+                <RadioButton
+                    android:id="@+id/option20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Come Together"
+                    android:fontFamily="@font/popins"
+                    android:textColor="@color/tekst"/>
+            </RadioGroup>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provjeri rezultate"
+        android:id="@+id/checkButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/popins"
+        android:backgroundTint="@color/botun"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Natrag"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/popins"
+        android:backgroundTint="@color/botun"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
